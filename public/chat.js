@@ -1,4 +1,4 @@
-const socket=io.connect('http://localhost:4000')
+const socket=io.connect('http://localhost:'+port)
 //DOM
 const handle=document.getElementById('handle')
 const message=document.getElementById('message')
